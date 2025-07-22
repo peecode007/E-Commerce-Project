@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Pranav",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "firebase": "^9.23.0",
+    "firebase-admin": "^13.4.0",
+    "mongoose": "^8.16.4",
+    "nodemailer": "^7.0.5",
+    "pdfkit": "^0.17.1",
+    "razorpay": "^2.9.6",
+    "slugify": "^1.6.6"
+  }
+}
